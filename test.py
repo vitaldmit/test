@@ -14,7 +14,21 @@ class Test:
 
     def get_age(self):
         return self.age
-    
+
+    def get_gender(self):
+        return self.gender
+
+    def get_height(self):
+        return self.height
+
+    def get_weight(self):
+        return self.weight
+
+    def get_bmi(self):
+        return self.bmi
+
+    def get_bmi_category(self):
+        return self.bmi_category
 
 test = Test()
 print(test.get_name())
