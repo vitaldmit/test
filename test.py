@@ -27,8 +27,6 @@ class Test:
     def get_bmi(self):
         return self.bmi
 
-    def get_bmi_category(self):
-        return self.bmi_category
 
 test = Test()
 print(test.get_name())
