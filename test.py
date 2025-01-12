@@ -13,5 +13,6 @@ class Test:
     def set_name(self, name):
         self.name = name
 
+
 test = Test()
 print(test.get_name())
