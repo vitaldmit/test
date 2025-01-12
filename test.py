@@ -5,6 +5,7 @@ class Test:
         self.age = 20
         self.gender = "Male"
         self.address = "123 Main St"
+        self.phone = "555-555-5555"
 
     def get_name(self):
         return self.name
@@ -18,6 +19,9 @@ class Test:
     def get_address(self):
         return self.address
 
+    def get_phone(self):
+        return self.phone
+
     def set_name(self, name):
         self.name = name
 
@@ -29,6 +33,9 @@ class Test:
 
     def set_address(self, address):
         self.address = address
+
+    def set_phone(self, phone):
+        self.phone = phone
 
 
 test = Test()
