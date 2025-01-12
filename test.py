@@ -24,9 +24,6 @@ class Test:
     def get_weight(self):
         return self.weight
 
-    def get_bmi(self):
-        return self.bmi
-
 
 test = Test()
 print(test.get_name())
