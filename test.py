@@ -6,6 +6,7 @@ class Test:
         self.gender = "Male"
         self.address = "123 Main St"
         self.phone = "555-555-5555"
+        self.email = "test@test.com"
 
     def get_name(self):
         return self.name
@@ -22,6 +23,9 @@ class Test:
     def get_phone(self):
         return self.phone
 
+    def get_email(self):
+        return self.email
+
     def set_name(self, name):
         self.name = name
 
@@ -36,6 +40,9 @@ class Test:
 
     def set_phone(self, phone):
         self.phone = phone
+
+    def set_email(self, email):
+        self.email = email
 
 
 test = Test()
