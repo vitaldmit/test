@@ -10,6 +10,9 @@ class Test:
     def get_age(self):
         return self.age
 
+    def set_name(self, name):
+        self.name = name
+
 
 test = Test()
 print(test.get_name())
